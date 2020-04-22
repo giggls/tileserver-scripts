@@ -33,3 +33,7 @@ if requested. This script is intended to be called from a cronjob or
 (recommend) from the provided systemd service and timer files. If you
 intend to use this for your own tileserver you will likely need to slightly adapt
 this to your own requirements.
+
+### check_osmdb_up2date.py
+
+Monitoring Plugin for Icinga to see if database is up to date.

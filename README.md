@@ -1,9 +1,18 @@
 # Replication and tile expire scripts from German tileserver
 
 This repository contains the scripts which are used on the German
-tileservers fpr database replication using pyosmium-get-changes and
+tileservers for database replication using pyosmium-get-changes and
 osm2pgsql. These scripts will also trigger the tile expire mechanism from
 the output created by osm2pgsql.
+
+The machines are currently running Debian GNU/Linux 10 (buster) and most of
+the software running there is available directly from the distribution.
+
+Exceptions are:
+
+* osml10n https://github.com/giggls/mapnik-german-l10n
+* tirex https://github.com/openstreetmap/tirex
+* libapache2-mod-tile https://github.com/openstreetmap/mod_tile/
 
 ## Provided scripts
 
